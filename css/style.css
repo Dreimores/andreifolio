@@ -733,10 +733,6 @@ p {
   border-radius: .5rem;
 }
 
-.contact .card-body {
-  padding: 3rem;
-}
-
 .contact .form-control {
   display: block;
   width: 100%;
@@ -980,6 +976,9 @@ textarea.form-control {
   .services .service-title {
     text-align: start;
   }
+  .contact .card-body {
+    padding: 1.5rem;
+  }
 }
 
 /* min & max width end */
@@ -992,6 +991,9 @@ textarea.form-control {
 @media (min-width: 768px) {
   .container {
     padding: 0 2.5rem;
+  }
+  .contact .card-body {
+    padding: 2rem;
   }
 }
 
@@ -1061,6 +1063,9 @@ textarea.form-control {
   }
   .services .service-title {
     text-align: center;
+  }
+  .contact .card-body {
+    padding: 3rem;
   }
 }
 
